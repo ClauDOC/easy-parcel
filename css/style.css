@@ -1,0 +1,884 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/* Stili per il modulo di input */
+.cell-xl-4, .cell-lg-5, .cell-md-6 {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 50px;
+    text-align: left;
+    margin-bottom: 0;
+    flex: 0 0 auto;
+    flex-basis: 100%;
+    max-width: 100%;
+    opacity: 0.9;
+}
+
+/* Stili per il form di input */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Stili per le etichette dei campi */
+label {
+    font-weight: bold;
+}
+
+/* Stili per gli input */
+.input-group-sm {
+    margin-bottom: 10px;
+}
+
+/* Stili per i pulsanti */
+.btn-xxs {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+
+
+
+
+
+
+/* --------------- */
+/* UTILITY CLASSES */
+/* --------------- */
+/* - Margin elements - */
+.element-top-0 {
+  margin-top: 0px !important;
+}
+
+.element-bottom-0 {
+  margin-bottom: 0px !important;
+}
+
+.element-top-10 {
+  margin-top: 10px !important;
+}
+
+.element-bottom-10 {
+  margin-bottom: 10px !important;
+}
+
+.element-top-20 {
+  margin-top: 20px !important;
+}
+
+.element-bottom-20 {
+  margin-bottom: 20px !important;
+}
+
+.element-top-30 {
+  margin-top: 30px !important;
+}
+
+.element-bottom-30 {
+  margin-bottom: 30px !important;
+}
+
+.element-top-40 {
+  margin-top: 40px !important;
+}
+
+.element-bottom-40 {
+  margin-bottom: 40px !important;
+}
+
+.element-top-50 {
+  margin-top: 50px !important;
+}
+
+.element-bottom-50 {
+  margin-bottom: 50px !important;
+}
+
+.element-top-60 {
+  margin-top: 60px !important;
+}
+
+.element-bottom-60 {
+  margin-bottom: 60px !important;
+}
+
+.element-top-70 {
+  margin-top: 70px !important;
+}
+
+.element-bottom-70 {
+  margin-bottom: 70px !important;
+}
+
+.element-top-80 {
+  margin-top: 80px !important;
+}
+
+.element-bottom-80 {
+  margin-bottom: 80px !important;
+}
+
+.element-top-90 {
+  margin-top: 90px !important;
+}
+
+.element-bottom-90 {
+  margin-bottom: 90px !important;
+}
+
+.element-top-100 {
+  margin-top: 100px !important;
+}
+
+.element-bottom-100 {
+  margin-bottom: 100px !important;
+}
+
+.element-top-110 {
+  margin-top: 110px !important;
+}
+
+.element-bottom-110 {
+  margin-bottom: 110px !important;
+}
+
+.element-top-120 {
+  margin-top: 120px !important;
+}
+
+.element-bottom-120 {
+  margin-bottom: 120px !important;
+}
+
+.element-top-130 {
+  margin-top: 130px !important;
+}
+
+.element-bottom-130 {
+  margin-bottom: 130px !important;
+}
+
+.element-top-140 {
+  margin-top: 140px !important;
+}
+
+.element-bottom-140 {
+  margin-bottom: 140px !important;
+}
+
+.element-top-150 {
+  margin-top: 150px !important;
+}
+
+.element-bottom-150 {
+  margin-bottom: 150px !important;
+}
+
+.element-top-160 {
+  margin-top: 160px !important;
+}
+
+.element-bottom-160 {
+  margin-bottom: 160px !important;
+}
+
+.element-top-170 {
+  margin-top: 170px !important;
+}
+
+.element-bottom-170 {
+  margin-bottom: 170px !important;
+}
+
+.element-top-180 {
+  margin-top: 180px !important;
+}
+
+.element-bottom-180 {
+  margin-bottom: 180px !important;
+}
+
+.element-top-190 {
+  margin-top: 190px !important;
+}
+
+.element-bottom-190 {
+  margin-bottom: 190px !important;
+}
+
+.element-top-200 {
+  margin-top: 200px !important;
+}
+
+.element-bottom-200 {
+  margin-bottom: 200px !important;
+}
+
+.element-top-210 {
+  margin-top: 210px !important;
+}
+
+.element-bottom-210 {
+  margin-bottom: 210px !important;
+}
+
+.element-top-220 {
+  margin-top: 220px !important;
+}
+
+.element-bottom-220 {
+  margin-bottom: 220px !important;
+}
+
+.element-top-230 {
+  margin-top: 230px !important;
+}
+
+.element-bottom-230 {
+  margin-bottom: 230px !important;
+}
+
+.element-top-240 {
+  margin-top: 240px !important;
+}
+
+.element-bottom-240 {
+  margin-bottom: 240px !important;
+}
+
+.element-top-250 {
+  margin-top: 250px !important;
+}
+
+.element-bottom-250 {
+  margin-bottom: 250px !important;
+}
+
+.element-top-260 {
+  margin-top: 260px !important;
+}
+
+.element-bottom-260 {
+  margin-bottom: 260px !important;
+}
+
+.element-top-270 {
+  margin-top: 270px !important;
+}
+
+.element-bottom-270 {
+  margin-bottom: 270px !important;
+}
+
+.element-top-280 {
+  margin-top: 280px !important;
+}
+.element-bottom-280 {
+  margin-bottom: 280px !important;
+}
+.element-top-290 {
+  margin-top: 290px !important;
+}
+
+.element-bottom-290 {
+  margin-bottom: 290px !important;
+}
+
+.element-top-300 {
+  margin-top: 300px !important;
+}
+
+.element-bottom-300 {
+  margin-bottom: 300px !important;
+}
+
+/* - Height elements - */
+.element-height-0 {
+  height: 0px;
+}
+
+.element-height-10 {
+  height: 10px;
+}
+
+.element-height-20 {
+  height: 20px;
+}
+
+.element-height-30 {
+  height: 30px;
+}
+
+.element-height-40 {
+  height: 40px;
+}
+
+.element-height-50 {
+  height: 50px;
+}
+
+.element-height-60 {
+  height: 60px;
+}
+
+.element-height-70 {
+  height: 70px;
+}
+
+.element-height-80 {
+  height: 80px;
+}
+
+.element-height-90 {
+  height: 90px;
+}
+
+.element-height-100 {
+  height: 100px;
+}
+
+.element-height-110 {
+  height: 110px;
+}
+
+.element-height-120 {
+  height: 120px;
+}
+
+.element-height-130 {
+  height: 130px;
+}
+
+.element-height-140 {
+  height: 140px;
+}
+
+.element-height-150 {
+  height: 150px;
+}
+
+.element-height-160 {
+  height: 160px;
+}
+
+.element-height-170 {
+  height: 170px;
+}
+
+.element-height-180 {
+  height: 180px;
+}
+
+.element-height-190 {
+  height: 190px;
+}
+
+.element-height-200 {
+  height: 200px;
+}
+
+.element-height-210 {
+  height: 210px;
+}
+
+.element-height-220 {
+  height: 220px;
+}
+
+.element-height-230 {
+  height: 230px;
+}
+
+.element-height-240 {
+  height: 240px;
+}
+
+.element-height-250 {
+  height: 250px;
+}
+
+.element-height-260 {
+  height: 260px;
+}
+
+.element-height-270 {
+  height: 270px;
+}
+
+.element-height-280 {
+  height: 280px;
+}
+
+.element-height-290 {
+  height: 290px;
+}
+
+.element-height-300 {
+  height: 300px;
+}
+
+.element-height-310 {
+  height: 310px;
+}
+
+.element-height-320 {
+  height: 320px;
+}
+
+.element-height-330 {
+  height: 330px;
+}
+
+.element-height-340 {
+  height: 340px;
+}
+
+.element-height-350 {
+  height: 350px;
+}
+
+.element-height-360 {
+  height: 360px;
+}
+
+.element-height-370 {
+  height: 370px;
+}
+
+.element-height-380 {
+  height: 380px;
+}
+
+.element-height-390 {
+  height: 390px;
+}
+
+.element-height-400 {
+  height: 400px;
+}
+
+.element-height-410 {
+  height: 410px;
+}
+
+.element-height-420 {
+  height: 420px;
+}
+
+.element-height-430 {
+  height: 430px;
+}
+
+.element-height-440 {
+  height: 440px;
+}
+
+.element-height-450 {
+  height: 450px;
+}
+
+.element-height-460 {
+  height: 460px;
+}
+
+.element-height-470 {
+  height: 470px;
+}
+
+.element-height-480 {
+  height: 480px;
+}
+
+.element-height-490 {
+  height: 490px;
+}
+
+.element-height-500 {
+  height: 500px;
+}
+
+/* - Block behaviors */
+.block {
+  display: block !important;
+}
+
+.inline-block {
+  display: inline-block !important;
+}
+
+.default-inp2{
+	display:block;
+	width:100%;
+	/* border:1px solid #eee; */
+	position:relative;
+}
+.default-inp2:after{
+	width:5px;
+	right:-1px;
+	top:-1px;
+	bottom:-1px;
+	content:"";
+	display:block;
+	position:absolute;
+	background-color:rgba(136, 136, 136, 0.2);
+}
+.default-inp2 input{
+	display:block;
+	border:none;
+	padding:0 25px;
+	height:50px;
+	line-height:50px;
+}
+.default-inp2 textarea{
+	display:block;
+	border:none;
+	padding:15px 25px;
+	resize:none;
+	min-height:185px;
+}
+.default-inp2 i{
+	position:absolute;
+	right:32px;
+	top:16px;
+	width:auto;
+}
+.margin-5 {
+	margin:5px !important;
+}
+.padding-20 {
+	padding:20px !important;
+}
+.padding-10 {
+	padding:10px !important;
+}
+.padding-3 {
+	padding:3px !important;
+}
+.manina {
+	cursor:pointer;
+}
+.nomanina {
+	cursor:none !important;
+}
+.width-40 {
+	width:39% !important;
+}
+.width-60 {
+	width:59% !important;
+}
+.nascosto {
+	display:none;
+}
+.align-right {
+	text-align:right;
+}
+.align-center {
+	text-align:center;
+}
+.no-border-left {
+	border-left:none !important;
+}
+.dropdown-menu {
+	left:auto !important;
+	right:0px !important;
+}
+.bg-white {
+	background-color:white !important;
+}
+.bg-grigio {
+	background-color:#fbfbfb !important;
+}
+.bordered {
+	border:1px solid #888 !important;
+}
+.has-success {
+	border:2px solid green !important;
+}
+.has-error {
+	border:2px solid red !important;
+}
+.width-auto {
+	width:auto !important;
+}
+.white {
+	color:white !important;
+}
+.black {
+	color:black !important;
+}
+.hr-grigio {
+	background-color:#ddd !important;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.spinner-small {
+	width:40px;
+	height:40px;
+}
+.sfondo-grigio {
+	background-color:#f4f3f7;
+}
+.sfondo-white {
+	background-color:white !important;
+}
+.element-minheight-500 {
+	min-height: 500px;
+}
+
+.nowebp .bg-image-servizi {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-servizi.jpg");
+	background-position: center top;		
+	background-size: cover;
+}
+.webp .bg-image-servizi {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-servizi.jpg.webp");
+	background-position: center top;		
+	background-size: cover;
+}
+.nowebp .bg-image-contatti {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-contatti.jpg");
+	background-position: center top;		
+	background-size: cover;
+}
+.webp .bg-image-contatti {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-contatti.jpg.webp");
+	background-position: center top;		
+	background-size: cover;
+}
+.nowebp .bg-image-azienda {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-azienda.jpg");
+	background-position: center top;		
+	background-size: cover;
+}
+.webp .bg-image-azienda {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-azienda.jpg.webp");
+	background-position: center top;		
+	background-size: cover;
+}
+.nowebp .bg-image-consulenza {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-consulenza.jpg");
+	background-position: center top;		
+	background-size: cover;
+}
+.webp .bg-image-consulenza {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-consulenza.jpg.webp");
+	background-position: center top;		
+	background-size: cover;
+}
+.nowebp .bg-image-faq {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-faq.jpg");
+	background-position: center top;		
+	background-size: cover;
+}
+.webp .bg-image-faq {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-faq.jpg.webp");
+	background-position: center top;		
+	background-size: cover;
+}
+.nowebp .bg-image-login {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-login.jpg");
+	background-position: center top;		
+	background-size: cover;
+}
+.webp .bg-image-login {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-login.jpg.webp");
+	background-position: center top;		
+	background-size: cover;
+}
+.nowebp .bg-image-news {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-news.jpg");
+	background-position: center top;		
+	background-size: cover;
+}
+.webp .bg-image-news {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-news.jpg.webp");
+	background-position: center top;		
+	background-size: cover;
+}
+.nowebp .bg-image-giacenze {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-giacenze.jpg");
+	background-position: center top;		
+	background-size: cover;
+}
+.webp .bg-image-giacenze {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-giacenze.jpg.webp");
+	background-position: center top;		
+	background-size: cover;
+}
+.nowebp .bg-image-certificazioni {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-certificazioni.jpg");
+	background-position: center top;		
+	background-size: cover;
+}
+.webp .bg-image-certificazioni {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-certificazioni.jpg.webp");
+	background-position: center top;		
+	background-size: cover;
+}
+.nowebp .bg-image-dvawine {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-dvawine2.jpg");
+	background-position: center top;		
+	background-size: cover;
+}
+.webp .bg-image-dvawine {
+	background-repeat: no-repeat;
+	background-image: url("../../images/background-dvawine2.jpg.webp");
+	background-position: center top;		
+	background-size: cover;
+}
+
+#div_condizioni ol {
+	list-style-type: decimal !important;
+}
+
+#div_condizioni ol > li {
+	margin-top: 20px !important;
+}
+
+#div_condizioni ul {
+	list-style-type: square !important;
+}
+
+#div_condizioni ul > li {
+	margin-top: 5px !important;
+	margin-left: 20px !important;
+}
+
+/* tool bar button icon sticker */
+span.sticker {
+	position: absolute;
+	z-index:99;
+	background: url('../../img/mini-counter.png') no-repeat top left;
+	width: 18px;
+	height: 18px;
+	right: -3px;
+	top: -5px;
+	line-height: 19px;
+	font-size: 11px;
+}
+
+.divider-grey {
+  background-color: #eee;
+}
+
+.li-custom {
+	list-style: disc;
+    padding: 2px;
+    margin: 0px 0px 0px 20px;
+}
+
+.no-border {
+	border: none !important;
+}
+
+.width-50 {
+	width:50% !important;
+}
+
+.scritta-benvenuto {
+	color: #1F2646;
+}
+.scritta-azienda-1 {
+	color: #1B3686;
+}
+.scritta-azienda-2 {
+	color: #EA5A0B;
+}
+
+/* Preloader
+-------------------------------------------------------*/
+.loader-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 99999; }
+
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 0;
+  color: #1abcb0;
+  display: inline-block;
+  margin: -25px 0 0 -25px;
+  text-indent: -9999em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0); }
+  .loader div {
+    background-color: #1abcb0;
+    display: inline-block;
+    float: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    opacity: .5;
+    border-radius: 50%;
+    -webkit-animation: ballPulseDouble 2s ease-in-out infinite;
+    animation: ballPulseDouble 2s ease-in-out infinite; }
+  .loader div:last-child {
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s; }
+
+@-webkit-keyframes ballPulseDouble {
+  0%, 100% {
+    -webkit-transform: scale(0);
+    transform: scale(0); }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes ballPulseDouble {
+  0%, 100% {
+    -webkit-transform: scale(0);
+    transform: scale(0); }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
